@@ -44,15 +44,6 @@
     font-family: 'GreatVibes', sans-serif;
 }
 
-.kalendar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 4.2vw;
-    aspect-ratio: 1;
-    margin: 0 25px;
-}
-
 .M {
    font-size: 4vw;
    float: left;
@@ -74,12 +65,10 @@
 }
 
 .box-2 {
-    height: 100%;
-    max-height: 1080px;
-    width: auto;
+    height: 100vh;
     background-color: bisque;
     position: relative;
-    background-image: url(./image/fo3hz.jpg);
+    background-image: url(./image/oblaka.jpg);
 }
 
 .guests {
@@ -89,7 +78,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 20px;
-        margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .text {
@@ -107,13 +96,13 @@
     
 }
 
-.img-wrapper {
+.box-3 {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 35px;
-    border: 1px solid white ;
 }
 
 .dnii {
@@ -121,7 +110,7 @@
     justify-content: center;
     align-items: center;
     font-size: 2.87vw;
-    background-image: url(./image/fo3hz.jpg);
+    background-image: url(./image/huynya.jpg);
     background-color: blanchedalmond;
     height: 100%;
     max-height: 1080px;
@@ -177,10 +166,9 @@ margin-bottom: 20px;
 }
 
 .box-4 {
-    height: 100%;
-    max-height: 1080px;
-    width: auto;
+    height: 100vh;
  background-image: url(./image/fo3hz.jpg);
+ background-color: bisque;
 }
 
 /*.location {
@@ -211,6 +199,7 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 10px;
 }
 
 .ave {
