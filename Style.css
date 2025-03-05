@@ -12,12 +12,10 @@
 }
 
 .box-1 {
-    height: 100%;
-    max-height: 1080px;
-    width: auto;
+    height: 100vh;
     background-color: blanchedalmond;
     Position: relative;
-    background-image: url(./image/fo3hz.jpg);
+    background-image: url(./image/huynya.jpg);
 }
 
 .TS {
