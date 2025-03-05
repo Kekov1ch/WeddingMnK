@@ -112,9 +112,7 @@
     font-size: 2.87vw;
     background-image: url(./image/huynya.jpg);
     background-color: blanchedalmond;
-    height: 100%;
-    max-height: 1080px;
-    width: auto;
+    height: 100vh;
 }
 
 .dni {
@@ -143,11 +141,6 @@ height: 35px;
 aspect-ratio: 1;
 color: crimson;
 }
-
-/*.box-3 {
-    height: 1080px;
-    background-image: url(./image/fo3hz.jpg);
-}*/
 
 .graf {
 font-family: 'GreatVibes', sans-serif;
