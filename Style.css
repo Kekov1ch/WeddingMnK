@@ -1,0 +1,348 @@
+@font-face {
+    font-family: 'GreatVibes';
+    src: url(./fonts/GreatVibes-Regular.woff2) format(woff2);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box-1 {
+    height: 100%;
+    max-height: 1080px;
+    width: auto;
+    background-color: blanchedalmond;
+    Position: relative;
+    background-image: url(./image/fo3hz.jpg);
+}
+
+.TS {
+    font-size: 5.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'GreatVibes', sans-serif;
+    margin-bottom: 70px;
+}
+
+.name {
+    font-size: 5.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'GreatVibes', sans-serif;
+}
+
+.dd {
+    font-size: 6.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-family: 'GreatVibes', sans-serif;
+}
+
+.kalendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4.2vw;
+    aspect-ratio: 1;
+    margin: 0 25px;
+}
+
+.M {
+   font-size: 4vw;
+   float: left;
+   text-transform: uppercase;
+   writing-mode: vertical-rl;
+   Position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.K {
+    font-size: 4vw;
+    float: right;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    Position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.box-2 {
+    height: 100%;
+    max-height: 1080px;
+    width: auto;
+    background-color: bisque;
+    position: relative;
+    background-image: url(./image/fo3hz.jpg);
+}
+
+.guests {
+    font-size: 6.25vw;
+    font-family: 'GreatVibes', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+        margin-bottom: 20px;
+}
+
+.text {
+    font-size: 1.87vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 15.6vw;
+    aspect-ratio: 1;
+    border-radius: 20px;
+    background-size: cover;
+    
+}
+
+.img-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.dnii {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.87vw;
+    background-image: url(./image/fo3hz.jpg);
+    background-color: blanchedalmond;
+    height: 100%;
+    max-height: 1080px;
+    width: auto;
+}
+
+.dni {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dat {
+font-family: 'GreatVibes', sans-serif;
+margin-top: 10px;
+font-size: 6.25vw;
+}
+
+.ost {
+    padding: 20px;
+    text-align: center;
+}
+
+.gray {
+    color: gray;
+}
+
+.owned {
+background: url(./icons/heart.svg) center/contain no-repeat;
+height: 35px;
+aspect-ratio: 1;
+color: crimson;
+}
+
+/*.box-3 {
+    height: 1080px;
+    background-image: url(./image/fo3hz.jpg);
+}*/
+
+.graf {
+font-family: 'GreatVibes', sans-serif;
+font-size: 6.25vw;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 20px;
+margin-bottom: 20px;
+}
+
+.lists {
+font-size: 1.87vw;
+text-align: left;
+margin-bottom: 20px;
+}
+
+.box-4 {
+    height: 100%;
+    max-height: 1080px;
+    width: auto;
+ background-image: url(./image/fo3hz.jpg);
+}
+
+/*.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.torjestv {
+font-family: 'GreatVibes', sans-serif;
+font-size: 5.25vw;
+padding: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.text2 {
+    font-size: 1.20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ave {
+    font-size: 1.50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otstup {
+    padding-right: 30px;
+}
+
+
+@media (max-width: 767px) {
+
+    .TS {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .dd {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    
+    .kalendar {
+        height: 20px;
+        aspect-ratio: 1;
+        margin: 0 5px;
+    }
+
+    .M {
+        font-size: 16px;
+     }
+     
+     .K {
+         font-size: 16px;
+     }
+
+     .guests {
+        font-size: 30px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .text {
+        font-size: 16px;
+    }
+    
+    .dnii {
+        font-size: 16px;
+    }
+
+    .dat {
+    margin-top: 5px;
+    font-size: 30px;
+    }
+
+    .ost {
+        padding: 5px;
+    }
+
+    .owned {
+        height: 15px;
+    }
+
+    .graf {
+        font-size: 30px;
+        margin-bottom: 20px;
+        }
+        
+    .lists {
+        font-size: 15px;
+        margin-bottom: 20px;
+        }
+
+    .torjestv {
+            font-size: 25px;
+            padding: 10px;
+        }
+
+    .text2 {
+            font-size: 16px;
+
+        }
+        
+    .ave {
+            font-size: 16px;
+        }
+
+
+    .map2 {
+        width: 500px;
+        aspect-ratio: 1;
+        margin-bottom: 10px;
+    }
+
+    .map {
+        margin-top: 10px;
+    }
+
+    .img-wrapper {
+    margin-top: 10px;
+}
+
+    .dni {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .img {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 636px) {
+    .map2 {
+        width: 400px;
+        aspect-ratio: 1;
+    }
+}
+
+@media (max-width: 424px) {
+    .map2 {
+        width: 300px;
+        aspect-ratio: 1;
+    }
+}
