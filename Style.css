@@ -20,7 +20,7 @@
 
 .box-1 {
     height: 100vh;
-    width: 100vh;
+    max-height: 100%;
     background-color: bisque;
     Position: relative;
     background-image: url();
@@ -74,7 +74,7 @@
 
 .box-2 {
     height: 100vh;
-    width: 100vh;
+    max-height: 100%;
     background-color: bisque;
     position: relative;
     background-image: url();
@@ -152,7 +152,7 @@ border: 1px solid black;
 
 .box-3 {
     height: 100vh;
-    width: 100vh;
+    max-height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,6 +163,7 @@ border: 1px solid black;
 
 .box-4 {
     height: 100vh;
+    max-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -218,7 +219,7 @@ margin-bottom: 20px;
 
 .box-5 {
 height: 100vh;
-width: 100vh;
+max-height: 100%;
  background-image: url();
  background-color: bisque;
 }
