@@ -203,8 +203,6 @@ font-family: 'GreatVibes', sans-serif;
 display: flex;
 font-size: 6.25vw;
 flex-direction: column;
-padding-top: 20px;
-margin-bottom: 20px;
 }
 
 .icon {
@@ -283,7 +281,7 @@ align-items: center;
     }
 
     .icon {
-    width: 30px;
+    width: 60px;
     }
 
     .name {
@@ -293,12 +291,6 @@ align-items: center;
     .dd {
         font-size: 30px;
         margin-top: 40px;
-    }
-    
-    .kalendar {
-        height: 20px;
-        aspect-ratio: 1;
-        margin: 0 5px;
     }
 
     .M {
@@ -331,13 +323,13 @@ align-items: center;
         font-size: 16px;
     }
     
-    .dnii {
-        font-size: 16px;
+    .dni {
+        font-size: 30px;
     }
 
     .dat {
     margin-top: 5px;
-    font-size: 30px;
+    font-size: 50px;
     }
 
     .ost {
@@ -349,12 +341,12 @@ align-items: center;
     }
 
     .graf {
-        font-size: 30px;
+        font-size: 50px;
         margin-bottom: 20px;
         }
 
     .torjestv {
-            font-size: 25px;
+            font-size: 40px;
             padding: 10px;
         }
 
@@ -380,16 +372,15 @@ align-items: center;
 
     .img-wrapper {
     margin-top: 10px;
-}
-
-    .dni {
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
 
     .img {
         width: 150px;
         aspect-ratio: 1;
+    }
+
+    .otstup {
+        font-size: 40px;
     }
 
 }
