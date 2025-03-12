@@ -5,6 +5,13 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'PoiretOne';
+    src: url(./fonts/PoiretOne.woff2) format(woff2);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
 
 *{
     padding: 0;
@@ -13,9 +20,9 @@
 
 .box-1 {
     height: 100vh;
-    background-color: blanchedalmond;
+    background-color: bisque;
     Position: relative;
-    background-image: url(./image/huynya.jpg);
+    background-image: url();
 }
 
 .TS {
@@ -68,51 +75,98 @@
     height: 100vh;
     background-color: bisque;
     position: relative;
-    background-image: url(./image/oblaka.jpg);
+    background-image: url();
 }
 
 .guests {
-    font-size: 6.25vw;
+    font-size: 4.25vw;
     font-family: 'GreatVibes', sans-serif;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     padding-top: 20px;
     margin-bottom: 20px;
 }
 
 .text {
-    font-size: 1.87vw;
+    font-family: 'PoiretOne', sans-serif;
+    font-size: 2.3vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.dress-code {
+    font-family: 'GreatVibes', sans-serif;
+    font-size: 3.87vw;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.up-code {
+font-family: 'PoiretOne', sans-serif;
+font-size: 2vw;
+text-align: center;
+text-transform: none;
+border: 1px solid black;
+}
+
+.text-code {
+    font-family: 'PoiretOne', sans-serif;
+    text-transform: none;
+    text-align: left;
+    font-size: 2.3vw;
+}
+
 .img {
-    width: 15.6vw;
+    width: 270px;
     aspect-ratio: 1;
     border-radius: 20px;
     background-size: cover;
-    
+}
+
+.imgz {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1 {
+    float: left;
+    Position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.img2 {
+    float: right;
+    Position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 30px;
+    margin-right: 30px;
 }
 
 .box-3 {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin-top: 35px;
+    justify-content: center;
+    background-image: url();
+    background-color: bisque;
 }
 
-.dnii {
+.box-4 {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2.87vw;
-    background-image: url(./image/huynya.jpg);
-    background-color: blanchedalmond;
-    height: 100vh;
+    background-image: url();
+    background-color: bisque;
+    
 }
 
 .dni {
@@ -139,36 +193,31 @@ font-size: 6.25vw;
 background: url(./icons/heart.svg) center/contain no-repeat;
 height: 35px;
 aspect-ratio: 1;
-color: crimson;
+color: white;
 }
 
 .graf {
+padding: 10px;
+border: 1px solid black;
 font-family: 'GreatVibes', sans-serif;
-font-size: 6.25vw;
 display: flex;
-justify-content: center;
-align-items: center;
+font-size: 6.25vw;
+flex-direction: column;
 padding-top: 20px;
 margin-bottom: 20px;
 }
 
-.lists {
-font-size: 1.87vw;
-text-align: left;
-margin-bottom: 20px;
+.icon {
+    width: 80px;
+    aspect-ratio: 1;
+    margin: 20px;
 }
 
-.box-4 {
-    height: 100vh;
- background-image: url(./image/fo3hz.jpg);
+.box-5 {
+height: 100vh;
+ background-image: url();
  background-color: bisque;
 }
-
-/*.location {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
 
 .torjestv {
 font-family: 'GreatVibes', sans-serif;
@@ -188,6 +237,7 @@ align-items: center;
 }
 
 .text2 {
+    font-family: 'PoiretOne', sans-serif;
     font-size: 1.20vw;
     display: flex;
     justify-content: center;
@@ -196,16 +246,25 @@ align-items: center;
 }
 
 .ave {
+    font-family: 'PoiretOne', sans-serif;
     font-size: 1.50vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.otstup {
-    padding-right: 30px;
+.otstup {   
+ display: flex;
+ align-items: center;
+ font-size: 2.87vw;
 }
 
+@media (max-width: 1320px) {
+    .img {
+        width: 300px;
+        aspect-ratio: 1;
+    }
+}
 
 @media (max-width: 767px) {
 
@@ -310,6 +369,8 @@ align-items: center;
 
     .img {
         margin-bottom: 20px;
+        width: 200px;
+        aspect-ratio: 1;
     }
 
 }
