@@ -29,9 +29,10 @@
     font-size: 5.7vw;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
     align-items: center;
     font-family: 'GreatVibes', sans-serif;
-    margin-bottom: 70px;
 }
 
 .name {
@@ -52,6 +53,7 @@
 }
 
 .M {
+   font-family: 'PoiretOne', sans-serif;
    font-size: 4vw;
    float: left;
    text-transform: uppercase;
@@ -62,6 +64,7 @@
 }
 
 .K {
+    font-family: 'PoiretOne', sans-serif;
     font-size: 4vw;
     float: right;
     text-transform: uppercase;
@@ -346,7 +349,7 @@ align-items: center;
         }
 
     .torjestv {
-            font-size: 40px;
+            font-size: 30px;
             padding: 10px;
         }
 
