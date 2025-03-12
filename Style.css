@@ -251,6 +251,7 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 10px;
 }
 
 .otstup {   
@@ -259,9 +260,17 @@ align-items: center;
  font-size: 2.87vw;
 }
 
-@media (max-width: 1320px) {
+@media (max-width: 1068px) {
     .img {
-        width: 300px;
+        width: 230px;
+        aspect-ratio: 1;
+    }
+
+}
+
+@media (max-width: 881px) {
+    .img {
+        width: 190px;
         aspect-ratio: 1;
     }
 }
@@ -271,6 +280,10 @@ align-items: center;
     .TS {
         font-size: 30px;
         margin-bottom: 20px;
+    }
+
+    .icon {
+    width: 30px;
     }
 
     .name {
@@ -301,6 +314,18 @@ align-items: center;
         padding-top: 20px;
         margin-bottom: 20px;
     }
+
+    .dress-code {
+        font-size: 30px;
+    }
+
+    .up-code {
+        font-size: 20px;
+    }
+
+    .text-code {
+        font-size: 16px;
+    }
     
     .text {
         font-size: 16px;
@@ -325,11 +350,6 @@ align-items: center;
 
     .graf {
         font-size: 30px;
-        margin-bottom: 20px;
-        }
-        
-    .lists {
-        font-size: 15px;
         margin-bottom: 20px;
         }
 
@@ -368,8 +388,7 @@ align-items: center;
     }
 
     .img {
-        margin-bottom: 20px;
-        width: 200px;
+        width: 150px;
         aspect-ratio: 1;
     }
 
@@ -380,7 +399,19 @@ align-items: center;
         width: 400px;
         aspect-ratio: 1;
     }
-}
+
+    .img {
+        position: unset;
+        display: flex;
+    }
+    
+    .img1 {
+        margin: 10px;
+    }
+
+    .img2 {
+        margin: 10px;
+    }
 
 @media (max-width: 424px) {
     .map2 {
@@ -388,3 +419,4 @@ align-items: center;
         aspect-ratio: 1;
     }
 }
+
