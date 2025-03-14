@@ -139,7 +139,7 @@ border: 1px solid black;
     top: 0;
     left: 0;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 120px;
 }
 
 .img2 {
@@ -147,7 +147,7 @@ border: 1px solid black;
     Position: absolute;
     right: 0;
     bottom: 0;
-    margin-bottom: 30px;
+    margin-bottom: 120px;
     margin-right: 30px;
 }
 
@@ -390,6 +390,10 @@ align-items: center;
     .map2 {
         width: 400px;
         aspect-ratio: 1;
+    }
+
+    .guests {
+        text-align: center;
     }
 
     .img {
